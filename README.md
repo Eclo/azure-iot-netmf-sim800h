@@ -26,8 +26,12 @@ There are sample projects for:
 - HTTP client
 - AMQP client (comming soon)
 
-   
 
+## Dependencies
+
+The example projects depend on two libraries (both available as Nuget packages)
+- [Azure IoT HTTP Client from SIM800H] (https://www.nuget.org/packages/SIM800H.Azure.Devices.HTTPClient/)
+- [Driver for SIM800H] (https://www.nuget.org/packages/Eclo.NetMF.SIM800H/)
 
 
 
