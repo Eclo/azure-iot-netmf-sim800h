@@ -6,8 +6,8 @@ They use the SIM800 driver developed by Eclo Solutions and the related Microsoft
 The application structure is very straightforward:
 
 1. setup the SIM800H module
-2. setup the client connection to an Azure IoT Hub
-3. update RTC from time server
+2. setup the client connection to Azure IoT Hub
+3. update RTC from time server (this is absolutly necessary because authentication tokens depend on accurate date/time)
 4. send messages to an Azure IoT device (D2C)
 5. waits for messages for a device (C2D) 
 
