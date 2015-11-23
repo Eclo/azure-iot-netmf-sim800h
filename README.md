@@ -12,7 +12,7 @@ The application structure is very straightforward:
 5. waits for messages for a device (C2D) 
 
 
-## Features
+### Features
 
 * Send and receives data to/from Azure IoT Hub
 * HTTPS connection (for HTTP client)
@@ -20,14 +20,14 @@ The application structure is very straightforward:
 * 'Standard' Azure IoT connection string
 
 
-## Folder structure
+### Folder structure
 
 There are sample projects for:
 - HTTP client
 - AMQP client (comming soon)
 
 
-## Dependencies
+### Dependencies
 
 The example projects depend on two libraries (both available as Nuget packages)
 - [Azure IoT HTTP Client from SIM800H] (https://www.nuget.org/packages/SIM800H.Azure.Devices.HTTPClient/)
